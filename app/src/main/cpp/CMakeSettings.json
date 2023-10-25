@@ -1,0 +1,7 @@
+{
+  "configurations": [{
+    "name": "android-gradle-plugin-predetermined-name",
+    "inheritEnvironments": ["ndk"],
+    "buildRoot": "${ndk.moduleBuildRoot}/${ndk.variantName}/${ndk.abi}"
+  }]
+}
